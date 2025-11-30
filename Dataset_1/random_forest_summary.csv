@@ -1,0 +1,10 @@
+partition,trial,training_accuracy,testing_accuracy,cv_accuracy,best_parameters
+20/80,1,0.8955570291777188,0.8558640696228761,0.8582560821960344,"{'classifier__max_depth': 20, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+20/80,2,0.8938992042440318,0.8518856195607128,0.863062621166468,"{'classifier__max_depth': 20, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+20/80,3,0.8990384615384616,0.8538748445917944,0.8584232936395075,"{'classifier__max_depth': 20, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+50/50,1,0.8884689344207943,0.8576354353159604,0.8602215210183848,"{'classifier__max_depth': 20, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+50/50,2,0.8988130760559645,0.8537895365028845,0.8612159302414522,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}"
+50/50,3,0.9044493070751276,0.8579669783170877,0.8599567306043824,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}"
+80/20,1,0.8992084214016329,0.8584452179678436,0.8602926033209579,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}"
+80/20,2,0.9017364996477268,0.863583623404608,0.8607899267568374,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+80/20,3,0.9021923826101372,0.854135587601525,0.8611626144223109,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
