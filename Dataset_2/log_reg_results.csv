@@ -1,0 +1,10 @@
+Partition name,Trial number,Training accuracy,Testing accuracy,Cross validation accuracy,Best parameters
+20/80,1,0.9734513274336283,0.9736842105263158,0.9652173913043478,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+20/80,2,1.0,0.956140350877193,1.0,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+20/80,3,0.9734513274336283,0.9671052631578947,0.9553359683794467,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+50/50,1,0.9894366197183099,0.9754385964912281,0.9788220551378446,"{'classifier__C': 100, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+50/50,2,0.9929577464788732,0.9754385964912281,0.9789473684210526,"{'classifier__C': 1, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+50/50,3,0.9859154929577465,0.9789473684210527,0.9647869674185463,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+80/20,1,0.9824175824175824,0.9824561403508771,0.9758241758241759,"{'classifier__C': 0.1, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+80/20,2,0.9868131868131869,0.9912280701754386,0.9758241758241759,"{'classifier__C': 1, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+80/20,3,0.9934065934065934,0.956140350877193,0.9868131868131869,"{'classifier__C': 1, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"

@@ -1,0 +1,10 @@
+Partition name,Trial number,Training accuracy,Testing accuracy,Cross validation accuracy,Best parameters
+20/80,1,1.0,0.9605263157894737,0.9122529644268775,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"
+20/80,2,1.0,0.9364035087719298,0.9826086956521738,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50}"
+20/80,3,0.9911504424778761,0.9385964912280702,0.9201581027667984,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 50}"
+50/50,1,0.9964788732394366,0.9614035087719298,0.9541979949874685,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 50}"
+50/50,2,1.0,0.968421052631579,0.9612781954887216,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"
+50/50,3,0.9964788732394366,0.9473684210526315,0.9647869674185463,"{'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 50}"
+80/20,1,1.0,0.9736842105263158,0.9670329670329672,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50}"
+80/20,2,1.0,0.956140350877193,0.9670329670329672,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"
+80/20,3,0.9956043956043956,0.9385964912280702,0.9604395604395606,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 100}"
