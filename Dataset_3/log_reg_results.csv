@@ -1,0 +1,10 @@
+partition,trial,training_accuracy,testing_accuracy,cv_score,best_parameters
+20/80,1,0.8331916960058273,0.8330247943916724,0.8331908265101008,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+20/80,2,0.8136457448100036,0.8120542623896088,0.811095858312554,"{'classifier__C': 100, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+20/80,3,0.8210513536481728,0.8196109374525811,0.816197808902329,"{'classifier__C': 100, 'classifier__penalty': 'l1', 'classifier__solver': 'liblinear'}"
+50/50,1,0.8329610566184326,0.8333495192774595,0.8328634606611633,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'liblinear'}"
+50/50,2,0.8273769058949209,0.8251918034378946,0.8298532806368479,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+50/50,3,0.8333009614450811,0.8329610566184326,0.8332525765470926,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+80/20,1,0.8311380880121396,0.834425831512503,0.8308345978755689,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'liblinear'}"
+80/20,2,0.8265250379362671,0.8231366836610828,0.8276783004552352,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
+80/20,3,0.8202427921092564,0.8230152949745084,0.8223368740515934,"{'classifier__C': 0.01, 'classifier__penalty': 'l1', 'classifier__solver': 'saga'}"
